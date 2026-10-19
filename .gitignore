@@ -1,0 +1,68 @@
+node_modules
+.docusaurus
+public
+resources/_gen
+.vscode
+.hugo_build.lock
+pnpm-lock.yaml
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+cf-package
+
+application-workstation.yml
+
+### macOS template
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Annotation Processing
+.apt_generated/
+
+### JetBrains IDEA
+.idea
+*.iml
+
+# IntelliJ
+out/
+
+# Editor-based Rest Client
+.idea/httpRequests
+### Java template
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Gradle
+/gradle/
+/.gradle/
+/gradlew
+/gradlew.bat
+
+# Ignore Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Ignore background process logfile
+nohup.out
+.pre-commit-config.yaml

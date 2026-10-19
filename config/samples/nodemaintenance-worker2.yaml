@@ -1,0 +1,7 @@
+apiVersion: maintenance.example.com/v1alpha1
+kind: NodeMaintenance
+metadata:
+  name: worker2-firmware
+spec:
+  nodeName: kind-worker2
+  reason: "firmware update"

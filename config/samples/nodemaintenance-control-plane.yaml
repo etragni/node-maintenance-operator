@@ -1,0 +1,8 @@
+# Must be rejected: control-plane nodes are not supported.
+apiVersion: maintenance.example.com/v1alpha1
+kind: NodeMaintenance
+metadata:
+  name: control-plane-test
+spec:
+  nodeName: kind-control-plane
+  reason: "must be rejected"
